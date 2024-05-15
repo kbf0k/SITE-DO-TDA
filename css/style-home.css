@@ -24,6 +24,17 @@ nav {
     width: 350px;
 }
 
+.logo img:hover {
+    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in-out;
+    width: 375px;
+    margin-right: 20px;
+}
+
+.logo img:not(hover) {
+    transition: all 0.4s ease-in-out;
+}
+
 ul {
     padding: 20px;
     display: flex;
@@ -70,15 +81,15 @@ li a:not(:hover) {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    filter: blur(10px) brightness(70%);
+    filter: blur(10px) brightness(50%);
 }
 
-#video-titulo-imagem{
+#video-titulo-imagem {
     position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 150px;
 }
 
 #video-titulo-imagem h1 {
@@ -89,6 +100,53 @@ li a:not(:hover) {
     color: white;
 }
 
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#titulo h1 {
+    color: white;
+    font-family: "Poppins";
+    font-size: 180px;
+    text-align: center;
+    margin: 0;
+}
+
+.animar:hover,
+#titulo:hover {
+    text-shadow: 8px 8px 0 black;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in-out;
+}
+
+#titulo .animar:not(hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+#titulo:hover #T {
+    font-size: 195px;
+    color: red;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in-out;
+}
+
+#titulo:hover #D {
+    font-size: 195px;
+    color: yellow;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in-out;
+}
+
+#titulo:hover #A {
+    font-size: 195px;
+    color: green;
+    transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in-out;
+}
+
 #video-titulo-imagem h2 {
     position: sticky;
     font-size: 40px;
@@ -97,10 +155,23 @@ li a:not(:hover) {
     color: white;
 }
 
+#video-titulo-imagem h2:hover {
+    font-size: 45px;
+    text-shadow: 3px 3px 0 black;
+    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in-out;
+}
+
+#video-titulo-imagem h2:not(:hover) {
+    transition: all 0.4s ease-in-out;
+}
+
 #video-titulo-imagem a {
-    margin-top: 25px;
+    margin-top: 35px;
     position: sticky;
-    padding: 15px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-family: "Poppins";
     font-size: 30px;
     text-decoration: none;
@@ -109,19 +180,41 @@ li a:not(:hover) {
     border-radius: 40px;
 }
 
+#video-titulo-imagem a:hover {
+    font-size: 35px;
+    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(0, 95, 0);
+    box-shadow: 0 0 35px rgb(0, 255, 0);
+    text-shadow: 1 0 10px white;
+}
+
+#video-titulo-imagem a:not(hover) {
+    transition: all 0.4s ease-in-out;
+}
+
 #home2 {
     position: relative;
     height: 100vh;
-    background-color: gray;
+    overflow: hidden;
+    background: black;
+    filter: opacity(100%);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-#home2 img {
-    margin-top: 20px;
-    width: 200px;
+#home2::before {
+    content: "";
+    background: linear-gradient(45deg, red, yellow, green);
+    filter: blur(100px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
 }
 
 footer {
