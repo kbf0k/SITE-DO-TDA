@@ -64,10 +64,10 @@ section {
     height: 100vh;
 }
 #s1{
-    height: 82vh;
+    height: 70vh;
 }
 #s2{
-    height: 85vh;
+    height: 75vh;
 }
 #s4{
     height: 90vh;
@@ -92,14 +92,14 @@ p {
 h2{
     font-weight: 700;
     text-align: left;
-    margin-top: 10px;
+    margin-top: -80px;
     display: flex;
     justify-content: left;
     padding-left: 20px;
     font-size: 40px;
 }
 #visao{
-    margin-top: 10px;
+    margin-top: -20px;
 }
 #semaforo {
     width: 380px;
