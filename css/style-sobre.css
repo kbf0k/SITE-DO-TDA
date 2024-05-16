@@ -56,36 +56,57 @@ li a:not(:hover){
     transition: all 0.4s ease-in-out;
 }
 
-main {
-    margin-top: 50px;
-}
-
-
 section {
+    display: flex;
+    align-items: center; 
+    border: solid 3px black;
+    font-size: 20px;
+    height: 100vh;
+}
+#s1{
+    height: 82vh;
+}
+#s2{
+    height: 85vh;
+}
+#s4{
     height: 90vh;
-    margin-left: 400px;
-    margin-right: 400px;
-    border: solid 2px black;
-    font-size: 18px;
+}
+.corpo {
+    padding: 20px;
 }
 
-h1, h2 {
-    font-weight: bold;
-    text-align: center;
+.corpo img {
+    display: block; 
 }
 
 p {
-    margin-top: 5px;
-    text-align: justify;
+    text-align: left; 
+    margin-right: 50px; 
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 20px;  
 }
 
-#semaforo {
-    width: 400px;
+h2{
+    font-weight: 700;
+    text-align: left;
     margin-top: 10px;
-    margin-bottom: -15px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 40px;
+}
+#visao{
+    margin-top: 10px;
+}
+#semaforo {
+    width: 380px;
+    height: 250px;
+    margin-top: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
 }
 
 #alvo {
@@ -94,6 +115,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-left: 25%;
 }
 
 #olho {
@@ -102,6 +124,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-left: 25%;
 }
 
 footer{
