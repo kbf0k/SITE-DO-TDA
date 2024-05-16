@@ -98,6 +98,10 @@ section {
     display: block; 
 }
 
+#s3 .corpo {
+    margin-left: 22px;
+}
+
 p {
     text-align: left; 
     margin-right: 50px; 
