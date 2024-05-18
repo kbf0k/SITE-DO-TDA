@@ -71,123 +71,78 @@ nav li a:not(:hover){
 }
 
 section {
-    display: flex;
-    align-items: center; 
-    border: solid 3px black;
-    font-size: 20px;
-    height: 100vh;
-}
-#s1{
-    height: 70vh;
-    height: 75vh;
-}
-#s2{
-    height: 75vh;
+    padding: 60px 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 
-#s3 {
-    height: 80vh;
+section:nth-child(even) {
+    background-color: #f9f9f9;
 }
-#s4{
-    height: 80vh;
+
+section:nth-child(odd) {
+    background-color: #fff;
 }
+
 .corpo {
-    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.corpo img {
-    display: block; 
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
-#s3 .corpo {
-    margin-left: 22px;
+h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 p {
-    text-align: left; 
-    margin-right: 50px; 
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    padding-left: 20px;  
-}
-main ul{
-    list-style-type: none;
-}
-main li{
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-h2{
-    font-weight: 700;
-    text-align: left;
-    margin-top: -80px;
-    display: flex;
-    justify-content: left;
-    padding-left: 20px;
-    font-size: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
-#h2qm {
-    font-weight: 700;
-    text-align: left;
-    margin-top: -70px;
-    display: flex;
-    justify-content: left;
-    padding-left: 20px;
-    font-size: 40px;
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-#h2valores {
-    font-weight: 700;
-    text-align: left;
-    margin-top: -20px;
-    padding-left: 0px;
-    font-size: 40px;
+.corpo {
+    animation: fadeInUp 0.6s ease-in-out;
 }
 
-#h2futuro {
-    font-weight: 700;
-    text-align: left;
-    margin-top: -50px;
-    display: flex;
-    justify-content: left;
-    padding-left: 20px;
-    font-size: 40px;
+.corpo img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+    transition: transform 0.4s ease-in-out;
 }
 
-#visao{
-    margin-top: -18px;
-}
-
-#visao p {
-    margin-top: 12px;
-}
-
-#semaforo {
-    width: 380px;
-    height: 250px;
-    margin-top: 10px;
-    display: block;
-    margin-left: 5%;
-}
-
-#alvo {
-    width: 200px;
-    margin-top: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 25%;
-}
-
-#olho {
-    width: 200px;
-    margin-top: -10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 25%;
+.corpo img:hover {
+    transform: scale(1.05);
 }
 
 footer{
@@ -207,14 +162,13 @@ footer a{
     text-decoration: none;
     text-align: center;
     color: white;
-    font-family: "Poppins";
 }
 
 footer a:hover{
     padding: 5px;
     font-size: 18px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.285);
+    background-color:rgba(255, 255, 255, 0.285);
     transition: all 0.2s ease-in;
     transition: all 0.4s ease-in-out;
 }
