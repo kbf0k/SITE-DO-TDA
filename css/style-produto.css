@@ -69,248 +69,6 @@ li a:not(:hover){
     border-bottom: 2px solid white;
 }
 
-
-main{
-    margin-top: 0px;
-    text-decoration: none;
-}
-
-section{
-    height: 100vh;
-}
-#inicio, 
-#produto
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-}
-
-#inicio{
-    height: 90vh;
-    overflow: hidden;
-    background-color: black;
-    filter: opacity(100%);
-}
-#inicio::before{
-    background: url(../img/fundosemaforo.avif)no-repeat center center fixed;
-    filter: brightness(60%) blur(10px);
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
-}
-
-#inicio h1{
-    position: fixed;
-    color: white;
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 200px;
-    
-}
-#inicio h2{
-    margin-top: 200px;
-    text-transform: uppercase;
-    position: fixed;
-    color: white;
-    text-align: center;
-    margin-bottom: 200px;
-}
-
-#descricao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    position: relative;
-    background-color: black;
-    filter: opacity(100%);
-    overflow: hidden;
-    padding: 50px 20px;
-}
-
-#descricao::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(20px);
-    background: url('../img/texture.jpg') no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1;
-}
-
-.corpo{    
-    margin-left: 100px;
-    text-align: center;
-}
-
-.corpo p{
-    text-align: justify;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    max-width: 900px;
-}
-
-#logo{
-    width: 400px;
-}
-
-#funcionalidades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    background-color: #f0f0f0;
-}
-
-#titulo-texto {
-    margin-right: 50px;
-    text-align: left;
-}
-
-#titulo-texto h3 {
-    font-size: 60px;
-    color: black;
-    margin-bottom: 20px;
-}
-
-#titulo-texto ul {
-    font-size: 20px;
-    color: black;
-    list-style: none;
-    padding-left: 0;
-}
-
-#titulo-texto ul li {
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 20px;
-}
-
-#titulo-texto ul li::before {
-    content: '•';
-    color: red;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 30px;
-    line-height: 30px;
-    margin-right: 10px;
-}
-
-#fig {
-    text-align: center;
-}
-
-#foto {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px black;
-}
-
-figcaption {
-    margin-top: 10px;
-    font-size: 18px;
-    color: black;
-}
-p{
-    text-align: justify;
-    color: black;
-    font-size: 18px;
-    text-transform:initial;
-    width: 900px;
-    margin-top: 40px;
-}
-h1{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-    max-width:initial;
-    position: fixed;
-    color: white;
-}
-h2{
-    color: black;
-    text-transform:initial;
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-h3{
-    margin-top: 50px;
-    font-size: 40px;
-}
-#produto {
-    position: relative;
-    background-color: black;
-    filter: opacity(100%);
-    overflow: hidden;
-    padding: 50px 20px;
-}
-
-#produto::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(10px) brightness(80%);
-    background: url('../img/fundo.jpg') no-repeat center center fixed;
-    background-size: cover;
-    z-index: -1;
-}
-
-#caixas {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.caixa {
-    width: 500px;
-    height: 445px;
-    background-color: white;
-    text-align: center;
-    color: black;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px black;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.caixa:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px black;
-}
-
-.caixa p {
-    font-size: 25px;
-    text-align: justify;
-    max-width: 450px;
-    margin: 0 auto;
-    color: black;
-}
-
-.caixa h4 {
-    font-size: 29px;
-    color: black;
-    margin-bottom: 15px;
-}
-
 footer{
     position: relative;
     display: flex;
@@ -341,4 +99,146 @@ footer a:hover{
 
 footer a:not(:hover){
     transition: all 0.4s ease-in-out;
+}
+main{
+    margin-top: 0px;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    border: solid 2px rgb(0, 0, 0);
+}
+#inicio, 
+#dois,
+#produto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+#inicio{
+    height: 90vh;
+    overflow: hidden;
+    background-color: black;
+    filter: opacity(100%);
+}
+#inicio::before{
+    background: url(../img/fundosemaforo.avif)no-repeat center center fixed;
+    filter: brightness(60%) blur(5px);
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+#inicio h1{
+    position: fixed;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+#inicio h2{
+    margin-top: 200px;
+    text-transform: uppercase;
+    position: fixed;
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.corpo{
+    justify-content: center;
+    text-align: center;
+    margin-top: -100px;
+}
+#logo{
+    width: 400px;
+    float: left;
+    margin-top: -30px;
+}
+#func{
+    color: black;
+    margin: auto;
+    padding: auto;
+}
+#final{
+    margin-left: 50px;
+}
+#func ul li{
+    width: 700px;
+}
+p{
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+    text-transform:initial;
+    width: 900px;
+    margin-top: 40px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    max-width:initial;
+    position: fixed;
+    color: white;
+}
+h2{
+    color: black;
+    text-transform:initial;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 50px;
+    font-size: 40px;
+}
+#func ul{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#foto{
+    width: 400px;
+    border: solid 1px rgb(0, 0, 0);
+}
+#fig{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#produto{
+    background: url(../img/fundo.jpg) no-repeat center center fixed;
+}
+
+#caixas{
+    display: flex;
+    
+}
+.caixa{
+    width: 500px;
+    height: 445px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.caixa p{
+    font-size: 25px;
+    text-align: justify;
+    max-width: 450px;
+}
+.caixa h4{
+    font-size: 29px;
 }
