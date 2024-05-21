@@ -78,13 +78,14 @@ section {
     height: 100vh;
 }
 #s1{
-    height: 70vh;
-    height: 75vh;
+    height: 72vh;
 }
 #s2{
     height: 75vh;
 }
-
+#s2 .corpo{
+    margin-top: 100px;
+}
 #s3 {
     height: 80vh;
 }
@@ -98,11 +99,9 @@ section {
 .corpo img {
     display: block; 
 }
-
 #s3 .corpo {
     margin-left: 22px;
 }
-
 p {
     text-align: left; 
     margin-right: 50px; 
@@ -118,7 +117,7 @@ main li{
     margin-bottom: 15px;
     margin-top: 15px;
 }
-h2{
+h2 {
     font-weight: 700;
     text-align: left;
     margin-top: -80px;
@@ -126,16 +125,17 @@ h2{
     justify-content: left;
     padding-left: 20px;
     font-size: 40px;
+    position: relative; 
 }
-
 #h2qm {
     font-weight: 700;
     text-align: left;
-    margin-top: -70px;
+    margin-top: -30px;
     display: flex;
     justify-content: left;
     padding-left: 20px;
     font-size: 40px;
+    
 }
 
 #h2valores {
@@ -170,6 +170,8 @@ h2{
     margin-top: 10px;
     display: block;
     margin-left: 5%;
+    box-shadow: 0 30px 100px rgba(0, 0, 0, 0.5); /* Adiciona sombra preta */
+    border-radius: 10px; /* Arredonda as bordas */
 }
 
 #alvo {
@@ -179,6 +181,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-left: 25%;
+
 }
 
 #olho {
