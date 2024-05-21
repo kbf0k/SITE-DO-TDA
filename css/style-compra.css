@@ -70,6 +70,10 @@ li a:not(:hover) {
     transition: all 0.2s ease-in-out;
 }
 
+#compra{
+    border-bottom: 2px solid white;
+}
+
 footer{
     position: fixed;
     display: flex;
