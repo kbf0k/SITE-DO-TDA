@@ -236,7 +236,7 @@ h2{
 }
 .caixa{
     width: 500px;
-    height: 445px;
+    height: 400px;
     background-color: white;
     text-align: center;
     color: black;
@@ -247,7 +247,7 @@ h2{
     border-radius: 10px;
 }
 .caixa p{
-    font-size: 25px;
+    font-size: 22px;
     text-align: justify;
     max-width: 450px;
 }
