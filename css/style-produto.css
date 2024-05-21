@@ -69,28 +69,6 @@ li a:not(:hover){
     border-bottom: 2px solid white;
 }
 
-footer {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 100%;
-    height: 90px;
-    bottom: 0;
-    padding: 25px;
-}
-
-footer p {
-    font-family: "Poppins";
-    color: white;
-}
-
-footer img {
-    max-width: 50px;
-    margin-right: 10px;
-}
-
 main{
     margin-top: 0px;
     text-decoration: none;
@@ -106,7 +84,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
     color: white;
 }
 #inicio{
@@ -128,18 +105,20 @@ section{
 }
 
 #inicio h1{
+    text-transform: uppercase;
     position: fixed;
     color: white;
     font-size: 100px;
     text-align: center;
     margin-bottom: 200px;
-
 }
+
 #inicio h2{
-    margin-top: 200px;
     text-transform: uppercase;
     position: fixed;
     color: white;
+    margin-top: 200px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 200px;
 }
@@ -151,11 +130,13 @@ section{
 .corpo p{
     margin-top: 40px;
 }
+
 #logo{
     width: 400px;
     float: left;
     margin-top: -30px;
 }
+
 #func{
     color: black;
     margin: auto;
@@ -167,7 +148,7 @@ section{
     margin-left: 60px;
 }
 
-h3{
+#final h3{
     margin-top: 50px;
     font-size: 40px;
 }
@@ -179,7 +160,7 @@ h3{
 #funcionalidades{
     margin-top: 80px;
 }
-p{
+.corpo p{
     text-align: justify;
     color: black;
     font-size: 18px;
@@ -187,15 +168,8 @@ p{
     width: 900px;
     margin-top: 20px;
 }
-h1{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-    max-width:initial;
-    position: fixed;
-    color: white;
-}
-h2{
+
+.corpo h2{
     color: black;
     text-transform:initial;
     font-weight: bold;
@@ -238,10 +212,33 @@ h2{
     border-radius: 10px;
 }
 .caixa p{
+    margin-top: 10px;
     font-size: 22px;
     text-align: justify;
     max-width: 450px;
 }
 .caixa h4{
     font-size: 29px;
+    text-transform: uppercase;
+}
+
+footer {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    padding: 25px;
+}
+
+footer p {
+    font-family: "Poppins";
+    color: white;
+}
+
+footer img {
+    max-width: 50px;
 }
