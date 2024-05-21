@@ -156,7 +156,9 @@ section{
 .corpo{
     justify-content: center;
     text-align: center;
-    margin-top: -100px;
+}
+.corpo p{
+    margin-top: 40px;
 }
 #logo{
     width: 400px;
@@ -167,12 +169,24 @@ section{
     color: black;
     margin: auto;
     padding: auto;
+    height: 90vh;
+    align-items: center;
 }
 #final{
-    margin-left: 50px;
+    margin-left: 60px;
 }
-#func ul li{
-    width: 700px;
+
+h3{
+    margin-top: 50px;
+    font-size: 40px;
+}
+#func ul{
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 50px;
+}
+#funcionalidades{
+    margin-top: 80px;
 }
 p{
     text-align: justify;
@@ -180,7 +194,7 @@ p{
     font-size: 18px;
     text-transform:initial;
     width: 900px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 h1{
     text-transform: uppercase;
@@ -197,17 +211,11 @@ h2{
     font-size: 40px;
     margin-bottom: 20px;
 }
-h3{
-    margin-top: 50px;
-    font-size: 40px;
-}
-#func ul{
-    margin-top: 20px;
-    font-size: 20px;
-}
+
 #foto{
-    width: 400px;
-    border: solid 1px rgb(0, 0, 0);
+    width: 500px;
+    border-radius: 10px;
+    border: solid 3px rgb(0, 0, 0);
 }
 #fig{
     float: right;
@@ -215,7 +223,11 @@ h3{
     margin-top: 100px;
 }
 #produto{
-    background: url(../img/fundo.jpg) no-repeat center center fixed;
+    background: url(../img/print.png) no-repeat center center fixed;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
 }
 
 #caixas{
