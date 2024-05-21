@@ -223,7 +223,7 @@ h2{
     margin-top: 100px;
 }
 #produto{
-    background: url(../img/print.png) no-repeat center center fixed;
+    background-color: rgb(66, 65, 65);
     content: "";
     width: 100%;
     z-index: -1;

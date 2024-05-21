@@ -200,7 +200,7 @@ li a:not(:hover) {
     position: sticky;
     height: 100vh;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.850);
+    background-color: rgb(66, 65, 65);
     display: flex;
     justify-content: center;
     flex-direction: column;
