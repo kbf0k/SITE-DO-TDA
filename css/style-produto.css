@@ -242,3 +242,59 @@ footer p {
 footer img {
     max-width: 50px;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+
+#left-side img {
+    width: 200px;
+    padding-top: 20px;
+}
+
+#right-side {
+    margin-left: 30px;
+}
+
+#right-side h1 {
+    font-size: 35px;
+}
+
+#right-side p {
+    
+}
+
+#right-side h2 {
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+#right-side h5 {
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+
+#right-side a {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#right-side a:hover{
+    filter: brightness(0.7);
+    padding: 10px; 
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+#dois {
+    height: 80vh;
+}
