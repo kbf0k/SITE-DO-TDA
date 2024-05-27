@@ -10,13 +10,15 @@
     justify-content: space-around;
     padding: 20px;
     align-items: center;
-
+    height: 75vh;
 }
+
 .membros{
     text-align: center;
     margin: 0 10px;
     margin-top: 50px;
     margin-left: 20px;
+    margin-bottom: 120px;
 
 }
 .membros img{
@@ -24,11 +26,19 @@
     height: 200px;
     border-radius: 0%;
 }
+
+.membros a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 main h1{
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    font-size: 40px;
 }
 main p{
     font-weight: 500;
@@ -97,38 +107,53 @@ li a:not(:hover){
     transition: all 0.4s ease-in-out;
 }
 
-footer{
-    position: absolute;
-    display: flex;
-    justify-content: center;
+footer {
+    position: relative;
     background-color: black;
-    width: 100%;
-    height: 90px;
-    bottom: 0;
-    padding: 25px;
-}
-
-footer a{
-    margin-left: 30px;
-    margin-right: 30px;
-    text-decoration: none;
-    text-align: center;
     color: white;
-    font-family: "Poppins";
+    padding: 40px 0;
 }
 
-footer a:hover{
-    padding: 5px;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.285);
-    transition: all 0.2s ease-in;
-    transition: all 0.4s ease-in-out;
+footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 
-footer a:not(:hover){
-    transition: all 0.4s ease-in-out;
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
 }
 
+footer h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
 
-    
+footer p, footer a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .social a {
+    margin-right: 10px;
+}
+
+footer .social img {
+    max-width: 30px;
+}
+
+footer .bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #7f8c8d;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-logo {
+    width: 150px;
+}
