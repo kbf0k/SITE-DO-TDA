@@ -332,7 +332,6 @@ footer {
     position: relative;
     background-color: #00796b;
     color: white;
-    padding: 40px 0;
 }
 
 footer .container {
@@ -369,7 +368,7 @@ footer .social img {
 
 footer .bottom {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     border-top: 1px solid white;
     margin-top: 20px;
     font-size: 14px;

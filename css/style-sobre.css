@@ -159,7 +159,6 @@ section {
 footer {
     background-color:  #00796b;
     color: #fff;
-    padding: 40px 0;
     position: relative;
 }
 
@@ -199,7 +198,7 @@ footer .social img {
 
 footer .bottom {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     border-top: 1px solid #ffffff;
     margin-top: 20px;
     font-size: 14px;
