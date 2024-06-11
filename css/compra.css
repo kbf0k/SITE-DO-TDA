@@ -1,0 +1,187 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav #logo_nav {
+    width: 160px;
+    margin: -20px 0 -12px 0;
+}
+
+nav .nav-link ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+nav .nav-link ul li a,
+nav .nav-login a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav .nav-login a {
+    margin-right: 50px;
+}
+
+a:hover {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.292);
+    transition: all 0.2s ease-in;
+}
+
+.secao {
+    border-bottom: 5px solid aliceblue;
+    height: 100%;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.content-secao {
+    margin: 200px 20px 0;
+    color: white;
+}
+
+#id-secao1,
+#id-secao2,
+#id-secao3,
+#id-secao4 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+#id-secao1::before,
+#id-secao2::before,
+#id-secao3::before,
+#id-secao4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    filter: blur(10px) brightness(40%);
+}
+
+#id-secao1::before {
+    background: url("../img/futebol.jpg");
+}
+
+#id-secao2::before {
+    background: url("../img/basquete.webp");
+}
+
+#id-secao3::before {
+    background: url("../img/futebol-americano.webp");
+}
+
+#id-secao4::before {
+    background: url("../img/ufc.jpg");
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/estrada-larga-com-edificios-de-ambos-os-lados_1127-2188.avif") center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 320px;
+    margin: 200px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.416);
+}
+
+.dados label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.dados input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.dados input:focus {
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 5px black;
+}
+
+.botao1, .botao2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.botao1 button,
+.botao2 a {
+    padding: 10px 0;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.botao1 button {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.botao2 a {
+    background-color: red;
+    border: 1px solid red;
+}

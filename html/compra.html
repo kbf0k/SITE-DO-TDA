@@ -4,71 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style-compra.css">
-    <title>Página de compra do produto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="../css/compra.css">
+    <title>Página de Login</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../img/logo.png" alt="Logo">
-                </a>
+<body id="login">
+    <form>
+        <div class="dados">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu nome" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+
+            <div class="botao1">
+                <button type="submit" formaction="index.html">Entrar</button>
             </div>
-            <ul>
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="./produto.html">Produto</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./integrantes.html">Integrantes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Página em desenvolvimento...</h1>
-    </main>
-    <footer>
-        <footer>
-            <div class="container">
-    
-                <div class="footer-section">
-                    <img src="../img/logo.png" alt="TDA Logo" class="footer-logo">
-                    <p>TDA é uma empresa líder em desenvolvimento de software e soluções tecnológicas
-                        personalizadas, dedicada a transformar ideias em realidade.</p>
-                </div>
-    
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p><strong>Endereço:</strong> Rua Av. Monsenhor Theodomiro Lobo, 100 - Parque Res. Maria Elmira, Caçapava - SP, 12285-050<br>
-                        <strong>Email:</strong> <a href="tda.tecdevan@gmail.com" target="_blank">tda.tecdevan@gmail.com</a> <br>
-                        <strong>Telefone:</strong> (12) 1234-5678
-                    </p>
-                </div>
-    
-                <div class="footer-section">
-                    <h3>Siga-nos</h3>
-                    <div class="social">
-                        <a href="https://linkedin.com/company/tdasmartlight" target="_blank">
-                            <img src="../img/linkedin.webp" alt="LinkedIn">
-                        </a>
-                        <a href="https://instagram.com/tdasmartlight" target="_blank">
-                            <img src="../img/insta 2.png" alt="Instagram">
-                        </a>
-                    </div>
-                </div>
+            <div class="botao2">
+                <a href="sobre.html">Voltar</a>
             </div>
-    
-            <div class="bottom">
-                &copy; 2024 TDA. Todos os direitos reservados.
-            </div>
-        </footer>
-    </footer>
+        </div>
+    </form>
 </body>
 
 </html>
