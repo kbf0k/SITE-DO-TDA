@@ -179,9 +179,10 @@ footer a {
 .botao1 button {
     background-color: green;
     border: 1px solid green;
+    cursor: pointer;
 }
 
-.botao2 a {
+.botao2  a {
     background-color: red;
     border: 1px solid red;
 }

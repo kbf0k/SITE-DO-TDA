@@ -118,7 +118,7 @@ main {
     background-color: #fafafa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #066e20;  
+    border: 2px solid #10d641;  
 }
 
 .text-content {
@@ -128,7 +128,7 @@ main {
 .text-content h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #444;
+    color: #00796b;
 }
 
 .text-content p {
