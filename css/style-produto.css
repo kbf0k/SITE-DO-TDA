@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #494343 0%, rgb(244, 10, 10) ,#443d3d 100%);
+    background:white;
     color: #333;
     line-height: 1.6;
 }
@@ -83,7 +83,7 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.508);
     border-radius: 8px;
 }
 #inicio {
@@ -92,8 +92,9 @@ main {
 }
 
 #inicio h1 {
+    margin-top: 45px;
     font-size: 2.5rem;
-    color: #e91a0c;
+    color: #066e20;
 }
 
 #inicio h2 {
@@ -117,7 +118,7 @@ main {
     background-color: #fafafa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid red;  /* Borda vermelha */
+    border: 2px solid #066e20;  /* Borda vermelha */
 }
 
 .text-content {
@@ -173,7 +174,7 @@ main {
 }
 
 #final h3 {
-    color: #dd160f;
+    color: #066e20;
     margin-bottom: 15px;
     font-size: 23px;
     font-weight: 600;
@@ -212,7 +213,7 @@ main {
 
 .caixa h4 {
     margin-bottom: 10px;
-    color: #c02307;
+    color: #066e20;
     font-size: 20px;
 }
 
@@ -260,14 +261,14 @@ main {
     display: inline-block;
     padding: 10px 20px;
     color: #fff;
-    background-color: #2dbd2d;
+    background-color: #066e20;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 #right-side a:hover {
-    background-color: #2f9715;
+    background-color: #35b615;
 }
 footer {
     position: relative;
