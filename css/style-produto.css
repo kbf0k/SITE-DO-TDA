@@ -151,6 +151,12 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 40px;
+    border: 2px solid #10d641;
+    box-shadow: 0 0 10px rgba(11, 78, 5, 0.1);
+    border-radius: 8px;
+    width: 1120px;
+    margin-left: 20px;
+
 }
 
 #fig {
@@ -164,7 +170,7 @@ main {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 22px;
+    margin-top: 45px;
 }
 
 #funcionalidades {
@@ -209,6 +215,9 @@ main {
     flex: 1;
     max-width: 45%;
     box-shadow: 0 0 10px rgba(11, 78, 5, 0.1);
+}
+#caixa1{
+    margin-right: 50px;
 }
 
 .caixa h4 {
