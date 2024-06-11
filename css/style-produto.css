@@ -170,8 +170,15 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.386);
     margin-top: 45px;
+    transition: all 0.5s ease-in-out;
+}
+
+#foto:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 20px black;
+    transform: translateY(-15px);
 }
 
 #funcionalidades {
@@ -207,6 +214,12 @@ main {
     flex-wrap: wrap;
 }
 
+.caixa:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 20px #14792d;
+    transform: translateY(-15px);
+}
+
 .caixa {
     background-color: #f9f9f9;
     border: 2px solid #10d641;
@@ -216,6 +229,7 @@ main {
     flex: 1;
     max-width: 45%;
     box-shadow: 0 0 10px rgba(11, 78, 5, 0.1);
+    transition: all 0.5s ease-in-out;
 }
 #caixa1{
     margin-right: 50px;

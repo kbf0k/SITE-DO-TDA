@@ -28,6 +28,7 @@
 .membros:hover{
     transition: all 0.3s ease-in-out;
     transform: translateY(-25px);
+    box-shadow: 0 0 20px #00796b;
 }
 .membros img{
     width:250px;
