@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 header{
-    background-color: #066e20;
+    background-color:  #00796b;
     width: 100%;
     height: 100px;
     position: sticky;
@@ -94,7 +94,7 @@ main {
 #inicio h1 {
     margin-top: 45px;
     font-size: 2.5rem;
-    color: #066e20;
+    color:  #00796b;
 }
 
 #inicio h2 {
@@ -118,7 +118,7 @@ main {
     background-color: #fafafa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #066e20;  /* Borda vermelha */
+    border: 2px solid #066e20;  
 }
 
 .text-content {
@@ -174,7 +174,7 @@ main {
 }
 
 #final h3 {
-    color: #066e20;
+    color:  #00796b;
     margin-bottom: 15px;
     font-size: 23px;
     font-weight: 600;
@@ -213,7 +213,7 @@ main {
 
 .caixa h4 {
     margin-bottom: 10px;
-    color: #066e20;
+    color:  #00796b;
     font-size: 20px;
 }
 
@@ -248,7 +248,7 @@ main {
 }
 
 #right-side h2 {
-    color: #28a745;
+    color:  green;
     margin-bottom: 10px;
 }
 
@@ -272,7 +272,7 @@ main {
 }
 footer {
     position: relative;
-    background-color: #066e20;
+    background-color: #00796b;
     color: white;
     padding: 40px 0;
 }

@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
 }
 header{
-    background-color: #066e20;
+    background-color:  #00796b;
     width: 100%;
     height: 100px;
     position: sticky;
@@ -120,7 +120,7 @@ section {
 
 .text-block h2 {
     font-size: 32px;
-    color: #066e20;
+    color:  #00796b;
     margin-bottom: 15px;
 }
 
@@ -136,7 +136,7 @@ section {
 }
 
 #futuro-valores .text-block ul li {
-    background-color: #066e20;
+    background-color:  #00796b;
     color: #fff;
     padding: 10px;
     margin: 5px 0;
@@ -145,7 +145,7 @@ section {
 }
 
 footer {
-    background-color: #066e20;
+    background-color:  #00796b;
     color: #fff;
     padding: 40px 0;
     position: relative;
