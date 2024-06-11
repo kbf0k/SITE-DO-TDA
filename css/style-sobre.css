@@ -93,7 +93,7 @@ section {
     margin-bottom: 20px;
     padding: 40px 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.508);
     width: 100%;
 }
 
@@ -193,7 +193,7 @@ footer .social img {
 footer .bottom {
     text-align: center;
     padding: 20px 0;
-    border-top: 1px solid #066e20;
+    border-top: 1px solid #ffffff;
     margin-top: 20px;
     font-size: 14px;
 }
