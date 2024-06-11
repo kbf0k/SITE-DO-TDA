@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background: linear-gradient(180deg, #494343 0%, rgb(244, 10, 10) ,#443d3d 100%);
     color: #333;
     line-height: 1.6;
 }
@@ -20,7 +20,6 @@ header{
     left: 0;
     z-index: 1;
 }
-
 nav{
     padding: 20px;
     display: flex;
@@ -78,8 +77,6 @@ nav li a:not(:hover){
 #produto1{
     border-bottom: 2px solid white;
 }
-
-/* Estilização geral do layout */
 main {
     width: 90%;
     max-width: 1200px;
@@ -89,8 +86,6 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
-/* Seção de boas-vindas */
 #inicio {
     text-align: center;
     margin-bottom: 40px;
@@ -105,23 +100,51 @@ main {
     color: #000000;
 }
 
-/* Seção de descrição do produto */
 #dois {
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fff;
 }
 
 #dois .corpo {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid red;  /* Borda vermelha */
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.text-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.image-content {
+    max-width: 35%;
 }
 
 #logo {
-    max-width: 200px;
-    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px solid green;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 #func {
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +163,7 @@ main {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 22px;
 }
 
 #funcionalidades {
@@ -151,7 +175,7 @@ main {
 #final h3 {
     color: #dd160f;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -163,8 +187,6 @@ main {
 #final li {
     margin-bottom: 10px;
 }
-
-/* Seção de problemas e soluções */
 #produto {
     display: flex;
     justify-content: space-around;
@@ -197,8 +219,6 @@ main {
 .caixa p {
     line-height: 1.6;
 }
-
-/* Seção de conteúdo do produto */
 #content {
     display: flex;
     flex-wrap: wrap;
