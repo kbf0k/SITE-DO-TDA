@@ -166,7 +166,7 @@ footer a {
 
 .botao1 button,
 .botao2 a {
-    padding: 10px 0;
+    padding: 5px 0;
     width: 90%;
     text-align: center;
     border-radius: 5px;
@@ -183,6 +183,6 @@ footer a {
 }
 
 .botao2  a {
-    background-color: red;
-    border: 1px solid red;
+    background-color: gray;
+    border: 1px solid gray;
 }
